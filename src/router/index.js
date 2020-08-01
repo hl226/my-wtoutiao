@@ -21,8 +21,9 @@ Vue.use(VueRouter)
 ]
 
 const router = new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
+  // 默认使用 hash 模式
+  // mode: 'history',
+  // base: process.env.BASE_URL,
   routes
 })
 
